@@ -1,0 +1,13 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\tester\src\main\scala\spinal\tester\code\Trash.scala:152:8: Generated class spinal.tester.code.test$ differs only in case from spinal.tester.code.Test$ (defined in Debug.scala).[0m
+[0m[[0m[33mwarn[0m] [0m[0m  Such classes will overwrite one another on case-insensitive filesystems.[0m
+[0m[[0m[33mwarn[0m] [0m[0mobject test{[0m
+[0m[[0m[33mwarn[0m] [0m[0m       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour deprecations[0m
+[0m[[0m[33mwarn[0m] [0m[0m6 deprecations (since 2.11.0)[0m
+[0m[[0m[33mwarn[0m] [0m[0m10 deprecations in total; re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0mbootstrap class path not set in conjunction with -source 8[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\tester\src\main\java\DynamicCompilation.java: Some input files use or override a deprecated API.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\tester\src\main\java\DynamicCompilation.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\tester\src\main\java\DynamicCompiler.java: C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\tester\src\main\java\DynamicCompiler.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\tester\src\main\java\DynamicCompiler.java: Recompile with -Xlint:unchecked for details.[0m

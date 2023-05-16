@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\idslplugin\target\scala-2.12\spinalhdl-idsl-plugin_2.12-1.6.2.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\idslplugin\target\scala-2.12\classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	.gitignore[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\idslplugin\target\scala-2.12\classes\.gitignore[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scalac-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\idslplugin\target\scala-2.12\classes\scalac-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	spinal[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\idslplugin\target\scala-2.12\classes\spinal[0m
+[0m[[0m[0mdebug[0m] [0m[0m	spinal\idslplugin[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\idslplugin\target\scala-2.12\classes\spinal\idslplugin[0m
+[0m[[0m[0mdebug[0m] [0m[0m	spinal\idslplugin\components[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\idslplugin\target\scala-2.12\classes\spinal\idslplugin\components[0m
+[0m[[0m[0mdebug[0m] [0m[0m	spinal\idslplugin\components\MainTransformer$ToStringMaskerTransformer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\idslplugin\target\scala-2.12\classes\spinal\idslplugin\components\MainTransformer$ToStringMaskerTransformer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	spinal\idslplugin\components\MainTransformer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\idslplugin\target\scala-2.12\classes\spinal\idslplugin\components\MainTransformer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	spinal\idslplugin\IdslPlugin.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\idslplugin\target\scala-2.12\classes\spinal\idslplugin\IdslPlugin.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

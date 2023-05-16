@@ -1,0 +1,301 @@
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/NewBasis.scala:3:8: not found: object spinal[0m
+[0m[[0m[31merror[0m] [0m[0mimport spinal.core._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/NewBasis.scala:5:24: not found: type Component[0m
+[0m[[0m[31merror[0m] [0m[0mclass NewBasis extends Component {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/NewBasis.scala:6:15: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m	val io = new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/NewBasis.scala:7:17: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m		val input 		= in  Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		          		  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/NewBasis.scala:7:28: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val input 		= in  Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		          		             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/NewBasis.scala:8:19: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m		val direction	= in  Bool()[0m
+[0m[[0m[31merror[0m] [0m[0m		             	  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/NewBasis.scala:9:17: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m		val output		= out Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		          		  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/NewBasis.scala:9:28: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val output		= out Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		          		             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/NewBasis.scala:12:14: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m	val dummy = Reg(Bool()) init(False)[0m
+[0m[[0m[31merror[0m] [0m[0m	            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/NewBasis.scala:12:18: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m	val dummy = Reg(Bool()) init(False)[0m
+[0m[[0m[31merror[0m] [0m[0m	                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/NewBasis.scala:12:31: not found: value False[0m
+[0m[[0m[31merror[0m] [0m[0m	val dummy = Reg(Bool()) init(False)[0m
+[0m[[0m[31merror[0m] [0m[0m	                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/NewBasis.scala:14:16: not found: value Bits[0m
+[0m[[0m[31merror[0m] [0m[0m	val a, b, c = Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m	              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/NewBasis.scala:14:23: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m	val a, b, c = Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m	                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/NewBasis.scala:35:2: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m	when (!io.direction) {[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/NewBasis.scala:44:3: not found: value SpinalVhdl[0m
+[0m[[0m[31merror[0m] [0m[0m		SpinalVhdl(new NewBasis)[0m
+[0m[[0m[31merror[0m] [0m[0m		^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:3:8: not found: object spinal[0m
+[0m[[0m[31merror[0m] [0m[0mimport spinal.core._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:5:29: not found: type Component[0m
+[0m[[0m[31merror[0m] [0m[0mclass G256InvMasked extends Component {[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:6:15: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m	val io = new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:7:13: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m		val A 		= in  Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		      		  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:7:24: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val A 		= in  Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		      		             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:8:13: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m		val M 		= in  Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		      		  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:8:24: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val M 		= in  Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		      		             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:9:13: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m		val S 		= in  Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		      		  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:9:24: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val S 		= in  Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		      		             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:10:13: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m		val T 		= in  Bits(4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		      		  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:10:24: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val T 		= in  Bits(4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		      		             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:11:15: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m		val AInv 	= out Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		         	  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:11:26: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val AInv 	= out Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		         	             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:14:14: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m	val dummy = Reg(Bool()) init(False)[0m
+[0m[[0m[31merror[0m] [0m[0m	            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:14:18: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m	val dummy = Reg(Bool()) init(False)[0m
+[0m[[0m[31merror[0m] [0m[0m	                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:14:31: not found: value False[0m
+[0m[[0m[31merror[0m] [0m[0m	val dummy = Reg(Bool()) init(False)[0m
+[0m[[0m[31merror[0m] [0m[0m	                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:15:63: not found: value Bits[0m
+[0m[[0m[31merror[0m] [0m[0m	val A1A0, A1, A0, M2, M1, M0, B, BInv, A1M0, A0M1, M1M0, C = Bits(4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m	                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:15:70: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m	val A1A0, A1, A0, M2, M1, M0, B, BInv, A1M0, A0M1, M1M0, C = Bits(4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m	                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:16:69: not found: value Bits[0m
+[0m[[0m[31merror[0m] [0m[0m	val S1, S0, A0B, A1B, A0T, A1T, M0B, M1B, M0T, M1T, A1Inv, A0Inv = Bits(4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m	                                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:16:76: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m	val S1, S0, A0B, A1B, A0T, A1T, M0B, M1B, M0T, M1T, A1Inv, A0Inv = Bits(4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m	                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:429:22: not found: type Component[0m
+[0m[[0m[31merror[0m] [0m[0mclass G16Mul extends Component {[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:430:15: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m	val io = new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:431:11: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m		val a = in  Bits(4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:431:22: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val a = in  Bits(4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:432:11: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m		val b = in  Bits(4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:432:22: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val b = in  Bits(4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:433:11: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m		val x = out Bits(4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:433:22: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val x = out Bits(4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:499:23: not found: type Component[0m
+[0m[[0m[31merror[0m] [0m[0mclass G16SqSc extends Component {[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:500:15: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m	val io = new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:501:11: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m		val t = in Bits (4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:501:22: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val t = in Bits (4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:502:11: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m		val x = out Bits (4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:502:23: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val x = out Bits (4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:122:28: not found: type Component[0m
+[0m[[0m[31merror[0m] [0m[0mclass G16InvMasked extends Component {[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:123:15: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m	val io = new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:124:13: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m		val B 		= in  Bits(4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		      		  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:124:24: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val B 		= in  Bits(4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		      		             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:125:13: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m		val M 		= in  Bits(4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		      		  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:125:24: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val M 		= in  Bits(4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		      		             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:126:13: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m		val T 		= in  Bits(4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		      		  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:126:24: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val T 		= in  Bits(4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		      		             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:127:15: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m		val BInv 	= out Bits(4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		         	  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:127:26: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val BInv 	= out Bits(4 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		         	             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:130:71: not found: value Bits[0m
+[0m[[0m[31merror[0m] [0m[0m	val b1, b0, b1Inv, b0Inv, m2, m1, m0, c, d, b1b0, b1m0, b0m1, m1m0 = Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m	                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:130:78: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m	val b1, b0, b1Inv, b0Inv, m2, m1, m0, c, d, b1b0, b1m0, b0m1, m1m0 = Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m	                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:131:65: not found: value Bits[0m
+[0m[[0m[31merror[0m] [0m[0m	val cInv, t1, t0, b0c, b0m2, m0c, m0m2, b1c, b1m2, m1c, m1m2 = Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m	                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:131:72: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m	val cInv, t1, t0, b0c, b0m2, m0c, m0m2, b1c, b1m2, m1c, m1m2 = Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m	                                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:524:20: not found: type Component[0m
+[0m[[0m[31merror[0m] [0m[0mclass G4Sq extends Component {[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:533:24: not found: type Component[0m
+[0m[[0m[31merror[0m] [0m[0mclass G4ScaleN extends Component {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:525:15: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m	val io = new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:526:11: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m		val t = in  Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:526:22: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val t = in  Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:527:11: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m		val x = out Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:527:22: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val x = out Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:534:15: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m	val io = new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:535:11: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m		val t = in  Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:535:22: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val t = in  Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:536:11: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m		val x = out Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:536:22: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val x = out Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:551:21: not found: type Component[0m
+[0m[[0m[31merror[0m] [0m[0mclass G4Mul extends Component {[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:552:15: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m	val io = new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:553:11: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m		val a = in  Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:553:22: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val a = in  Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:554:11: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m		val b = in  Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:554:22: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val b = in  Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:555:11: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m		val x = out Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:555:22: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val x = out Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:542:25: not found: type Component[0m
+[0m[[0m[31merror[0m] [0m[0mclass G4ScaleN2 extends Component {[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:543:15: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m	val io = new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:544:11: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m		val t = in  Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:544:22: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val t = in  Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:545:11: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m		val x = out Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:545:22: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val x = out Bits(2 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:237:38: not found: type Component[0m
+[0m[[0m[31merror[0m] [0m[0mclass G256InvMaskedOptimized extends Component {[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:238:15: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m	val io = new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m	             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:239:13: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m		val A 		= in  Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		      		  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:239:24: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val A 		= in  Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		      		             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:240:13: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m		val M 		= in  Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		      		  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:240:24: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val M 		= in  Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		      		             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:241:13: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m		val S 		= in  Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		      		  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:241:24: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val S 		= in  Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		      		             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:242:15: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m		val AInv 	= out Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		         	  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:242:26: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m		val AInv 	= out Bits(8 bits)[0m
+[0m[[0m[31merror[0m] [0m[0m		         	             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fabusbo/Schreibtisch/SpinalHDL/SecureSpinal/src/main/scala/AES/CanrightSBox/Polynomial.scala:245:14: not found: value Reg[0m
+[0m[[0m[31merror[0m] [0m[0m	val dummy = Reg(Bool()) init(False)[0m
+[0m[[0m[31merror[0m] [0m[0m	            ^[0m
+[0m[[0m[31merror[0m] [0m[0m100 errors found[0m

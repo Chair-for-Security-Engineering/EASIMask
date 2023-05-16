@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\sim\src\main\resources\generate_cxx.sh,C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\sim\target\scala-2.12\classes\generate_cxx.sh)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\sim\src\main\resources\SharedMemIface.cpp,C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\sim\target\scala-2.12\classes\SharedMemIface.cpp)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\sim\src\main\resources\SharedMemIface.hpp,C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\sim\target\scala-2.12\classes\SharedMemIface.hpp)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\sim\src\main\resources\SharedMemIface.i,C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\sim\target\scala-2.12\classes\SharedMemIface.i)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\sim\src\main\resources\SharedMemIface_wrap.cxx,C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\sim\target\scala-2.12\classes\SharedMemIface_wrap.cxx)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\sim\src\main\resources\SharedStruct.hpp,C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\sim\target\scala-2.12\classes\SharedStruct.hpp)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\sim\src\main\resources\VpiPlugin.cpp,C:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\sim\target\scala-2.12\classes\VpiPlugin.cpp)[0m

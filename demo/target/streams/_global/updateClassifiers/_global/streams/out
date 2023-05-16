@@ -1,0 +1,4 @@
+[debug] "not up to date. inChanged = false, force = false
+[debug] Updating ProjectRef(uri("file:/C:/Users/fabusbo/Desktop/VE-HEP/ap3/SpinalHDL/"), "demo")...
+[debug] Done updating ProjectRef(uri("file:/C:/Users/fabusbo/Desktop/VE-HEP/ap3/SpinalHDL/"), "demo")
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.

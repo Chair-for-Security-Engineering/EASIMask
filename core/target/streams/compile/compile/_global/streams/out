@@ -1,0 +1,39 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\core\src\main\scala\spinal\core\internals\Phase.scala:38:27: imported `BinaryOperator` is permanently hidden by definition of class BinaryOperator in package internals[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport java.util.function.BinaryOperator[0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\core\src\main\scala\spinal\core\internals\Phase.scala:3654:25: non-variable type argument spinal.core.SpinalEnum in type pattern spinal.core.SpinalEnumCraft[spinal.core.SpinalEnum] is unchecked since it is eliminated by erasure[0m
+[0m[[0m[33mwarn[0m] [0m[0m                case d: SpinalEnumCraft[SpinalEnum] => d.init(d.spinalEnum.elements(0))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\core\src\main\scala\spinal\core\internals\ComponentEmitterSpinal.scala:318:31: unreachable code[0m
+[0m[[0m[33mwarn[0m] [0m[0m			case  e: CastSIntToBits => s"B(${dispatchExpression(e.input)})"[0m
+[0m[[0m[33mwarn[0m] [0m[0m			                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\core\src\main\scala\spinal\core\Bits.scala:30:22: a pure expression does nothing in statement position[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def Bits(u: Unit = null) = new Bits()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\core\src\main\scala\spinal\core\ClockDomain.scala:255:5: multiline expressions might require enclosing parentheses; a value can be silently discarded when Unit is expected[0m
+[0m[[0m[33mwarn[0m] [0m[0m    this[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\core\src\main\scala\spinal\core\SInt.scala:30:22: a pure expression does nothing in statement position[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def SInt(u: Unit = null) = new SInt()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\core\src\main\scala\spinal\core\Trait.scala:44:22: a pure expression does nothing in statement position[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def Bool(u: Unit = null) = applyIt(spinal.core.Bool())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\core\src\main\scala\spinal\core\Trait.scala:45:31: a pure expression does nothing in statement position[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def Bits(u: Unit = null) = applyIt(super.Bits())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\core\src\main\scala\spinal\core\Trait.scala:46:31: a pure expression does nothing in statement position[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def UInt(u: Unit = null) = applyIt(super.UInt())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\core\src\main\scala\spinal\core\Trait.scala:47:31: a pure expression does nothing in statement position[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def SInt(u: Unit = null) = applyIt(super.SInt())[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\core\src\main\scala\spinal\core\UInt.scala:32:22: a pure expression does nothing in statement position[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def UInt(u: Unit = null) = new UInt()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree deprecations[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo deprecations (since 2.12.0)[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 deprecations in total; re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo feature warnings; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0m15 warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0mbootstrap class path not set in conjunction with -source 8[0m

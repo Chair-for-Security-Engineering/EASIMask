@@ -1,0 +1,56 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\lib\src\main\scala\spinal\lib\bus\regif\BusIfAdapter\WishboneBusInterface.scala:5:30: imported `BusIf` is permanently hidden by definition of trait BusIf in package regif[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport spinal.lib.bus.regif.{BusIf, ClassName}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\lib\src\main\scala\spinal\lib\bus\regif\BusIfAdapter\WishboneBusInterface.scala:5:37: imported `ClassName` is permanently hidden by definition of object ClassName in package regif[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport spinal.lib.bus.regif.{BusIf, ClassName}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\lib\src\main\scala\spinal\lib\Stream.scala:129:5: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: (false, true, true), (true, false, true), (true, true, true)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    (m2s, s2m, halfRate) match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\lib\src\main\scala\spinal\lib\bus\regif\RegInst.scala:282:7: Exhaustivity analysis reached max recursion depth, not all missing cases are reported.[0m
+[0m[[0m[33mwarn[0m] [0m[0m(Please try with scalac -Ypatmat-exhaust-depth 40 or -Ypatmat-exhaust-depth off.)[0m
+[0m[[0m[33mwarn[0m] [0m[0m      accType match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\lib\src\main\scala\spinal\lib\system\dma\sg\MemoryCore.scala:112:7: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: (true, true)[0m
+[0m[[0m[33mwarn[0m] [0m[0m      (p.writes(self).absolutePriority, p.writes(other).absolutePriority) match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\lib\src\main\scala\spinal\lib\system\dma\sg\MemoryCore.scala:198:7: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: (true, true)[0m
+[0m[[0m[33mwarn[0m] [0m[0m      (p.reads(self).absolutePriority, p.reads(other).absolutePriority) match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\lib\src\main\scala\spinal\lib\bus\regif\BusIfAdapter\Axi4BusInterface.scala:1:1: [0m
+[0m[[0m[33mwarn[0m] [0m[0mFound names but no class, trait or object is defined in the compilation unit.[0m
+[0m[[0m[33mwarn[0m] [0m[0mThe incremental compiler cannot record the dependency information in such case.[0m
+[0m[[0m[33mwarn[0m] [0m[0mSome errors like unused import referring to a non-existent class might not be reported.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    [0m
+[0m[[0m[33mwarn[0m] [0m[0mpackage spinal.lib.bus.regif[0m
+[0m[[0m[33mwarn[0m] [0m[0m^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\lib\src\main\scala\spinal\lib\bus\regif\BusIfAdapter\AxiLite4BusInterface.scala:1:1: [0m
+[0m[[0m[33mwarn[0m] [0m[0mFound names but no class, trait or object is defined in the compilation unit.[0m
+[0m[[0m[33mwarn[0m] [0m[0mThe incremental compiler cannot record the dependency information in such case.[0m
+[0m[[0m[33mwarn[0m] [0m[0mSome errors like unused import referring to a non-existent class might not be reported.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    [0m
+[0m[[0m[33mwarn[0m] [0m[0mpackage spinal.lib.bus.regif[0m
+[0m[[0m[33mwarn[0m] [0m[0m^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\lib\src\main\scala\spinal\lib\com\usb\sim\HostAgent.scala:1:1: [0m
+[0m[[0m[33mwarn[0m] [0m[0mFound names but no class, trait or object is defined in the compilation unit.[0m
+[0m[[0m[33mwarn[0m] [0m[0mThe incremental compiler cannot record the dependency information in such case.[0m
+[0m[[0m[33mwarn[0m] [0m[0mSome errors like unused import referring to a non-existent class might not be reported.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    [0m
+[0m[[0m[33mwarn[0m] [0m[0mpackage spinal.lib.com.usb.sim[0m
+[0m[[0m[33mwarn[0m] [0m[0m^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\lib\src\main\scala\spinal\lib\generator\Generator.scala:99:7: a pure expression does nothing in statement position; multiline expressions might require enclosing parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m      p[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\fabusbo\Desktop\VE-HEP\ap3\SpinalHDL\lib\src\main\scala\spinal\lib\Utils.scala:122:8: Generated class spinal.lib.OhMux$ differs only in case from spinal.lib.OHMux$.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  Such classes will overwrite one another on case-insensitive filesystems.[0m
+[0m[[0m[33mwarn[0m] [0m[0mobject OhMux extends MuxOHImpl[0m
+[0m[[0m[33mwarn[0m] [0m[0m       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m23 deprecations[0m
+[0m[[0m[33mwarn[0m] [0m[0m31 deprecations (since 2.11.0)[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo deprecations (since 2.12.0)[0m
+[0m[[0m[33mwarn[0m] [0m[0m56 deprecations in total; re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0m8 feature warnings; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0m16 warnings found[0m
